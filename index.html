@@ -13,44 +13,45 @@
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <style>
-  .flip-card {
-  background-color: transparent;
-  width: 350px;
-  height: 275px;
-  perspective: 1000px;
-}
+    .flip-card {
+      background-color: transparent;
+      width: 350px;
+      height: 275px;
+      perspective: 1000px;
+    }
 
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-}
+    .flip-card-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: transform 0.6s;
+      transform-style: preserve-3d;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
 
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
+    .flip-card:hover .flip-card-inner {
+      transform: rotateY(180deg);
+    }
 
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-}
+    .flip-card-front,
+    .flip-card-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+    }
 
-.flip-card-front {
-  background-color: #bbb;
-  color: black;
-}
+    .flip-card-front {
+      background-color: #bbb;
+      color: black;
+    }
 
-.flip-card-back {
-  background-color: rgb(252, 171, 139);
-  color: white;
-  transform: rotateY(180deg);
-}
+    .flip-card-back {
+      background-color: rgb(252, 171, 139);
+      color: white;
+      transform: rotateY(180deg);
+    }
   </style>
 
   <!-- Custom fonts for this template -->
@@ -102,15 +103,14 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
       <div class="w-100">
+          <h3 class="text-primary">Hello, <span class="text-secondary">I am</span></h3>
         <h1 class="mb-0">Manav
           <span class="text-primary">Patel</span>
         </h1>
         <div class="subheading mb-5">North Burnswick, NJ-8902 · (732) 429-3141 ·
           <a href="mailto:name@email.com">mpg1693@gmail.com</a>
         </div>
-        <p class="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level
-          overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall
-          value proposition.</p>
+        <p class="lead mb-5">I have always had a passion for technology and learning! To that end, I recently completed a Full Stack Web Development | Coding Certificate at Rutgers University honing my skills and living my best life! I am a solutions-driven and detailed oriented developer with experience in the customer service industry utilizing strong communication, collaboration, problem-solving, and analytical skills. I have the ability to design, build, and maintain websites from conception to production. I love working and collaborating in diverse team environments to develop solutions and exceed expectations on all levels.</p>
         <div class="social-icons">
           <a href="https://www.linkedin.com/in/manav-patel-a1b640181/" target="blank">
             <i class="fab fa-linkedin-in"></i>
@@ -175,97 +175,127 @@
 
         <div class="row">
 
+            <div class="col-lg-4 col-sm-12 mt-3">
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img src="img/portfolio/logo (4).png" alt="Avatar" style="width:350px;height:275px;">
+                    </div>
+                    <div class="flip-card-back">
+                      <h2>OverWorkshop</h2>
+                      <a href="https://github.com/mpj1693/overworkshop2" target="blank">
+                        <button type="button" class="btn btn-lg btn-dark mt-4">View Code</button>
+                        </a>
+                        <br />
+                        <a href="https://overworkshop.herokuapp.com/" target="blank">
+                          <button type="button" class="btn btn-lg btn-outline-secondary mt-4">View Project</button>
+                        </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
           <div class="col-lg-4 col-sm-12 mt-3">
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img src="img/portfolio/logo.png" alt="Avatar" style="width:350px;height:275px;">
-            </div>
-            <div class="flip-card-back">
-              <h1>John Doe</h1> 
-              <p>Architect & Engineer</p> 
-              <p>We love that guy</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-sm-12 mt-3">
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img src="img/portfolio/logo (1).png" alt="Avatar" style="width:350px;height:275px;">
-            </div>
-            <div class="flip-card-back">
-              <h1>John Doe</h1> 
-              <p>Architect & Engineer</p> 
-              <p>We love that guy</p>
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="img/portfolio/logo.png" alt="Avatar" style="width:350px;height:275px;">
+                </div>
+                <div class="flip-card-back">
+                  <h2>Ticketify</h2>
+                  <a href="https://github.com/mpj1693/Ticketify" target="blank">
+                  <button type="button" class="btn btn-lg btn-dark mt-4">View Code</button>
+                  </a>
+                  <br />
+                  <a href="https://mpj1693.github.io/Ticketify/" target="blank">
+                    <button type="button" class="btn btn-lg btn-outline-secondary mt-4">View Project</button>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
 
-      <div class="col-lg-4 col-sm-12 mt-3">
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img src="img/portfolio/logo (2).png" alt="Avatar" style="width:350px;height:275px;">
-            </div>
-            <div class="flip-card-back">
-              <h1>John Doe</h1> 
-              <p>Architect & Engineer</p> 
-              <p>We love that guy</p>
+          <div class="col-lg-4 col-sm-12 mt-3">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="img/portfolio/logo (1).png" alt="Avatar" style="width:350px;height:275px;">
+                </div>
+                <div class="flip-card-back">
+                  <h2>Gif-Tastic</h2>
+                  <a href="https://github.com/mpj1693/GifTastic" target="blank">
+                    <button type="button" class="btn btn-lg btn-dark mt-4">View Code</button>
+                    </a>
+                    <br />
+                    <a href="https://mpj1693.github.io/GifTastic/" target="blank">
+                      <button type="button" class="btn btn-lg btn-outline-secondary mt-4">View Project</button>
+                    </a>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
 
-      <div class="col-lg-4 col-sm-12 mt-3">
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img src="img/portfolio/logo (3).jpg" alt="Avatar" style="width:350px;height:275px;">
-            </div>
-            <div class="flip-card-back">
-              <h1>John Doe</h1> 
-              <p>Architect & Engineer</p> 
-              <p>We love that guy</p>
+          <div class="col-lg-4 col-sm-12 mt-3">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="img/portfolio/logo (2).png" alt="Avatar" style="width:350px;height:275px;">
+                </div>
+                <div class="flip-card-back">
+                  <h2>Trivia Game</h2>
+                  <a href="https://github.com/mpj1693/TriviaGame" target="blank">
+                    <button type="button" class="btn btn-lg btn-dark mt-4">View Code</button>
+                    </a>
+                    <br />
+                    <a href="https://mpj1693.github.io/TriviaGame/" target="blank">
+                      <button type="button" class="btn btn-lg btn-outline-secondary mt-4">View Project</button>
+                    </a>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
 
-      <div class="col-lg-4 col-sm-12 mt-3">
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img src="img/portfolio/logo (4).JPG" alt="Avatar" style="width:350px;height:275px;">
-            </div>
-            <div class="flip-card-back">
-              <h1>John Doe</h1> 
-              <p>Architect & Engineer</p> 
-              <p>We love that guy</p>
+          <div class="col-lg-4 col-sm-12 mt-3">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="img/portfolio/logo (3).jpg" alt="Avatar" style="width:350px;height:275px;">
+                </div>
+                <div class="flip-card-back">
+                  <h2>Crystal Collector</h2>
+                  <a href="https://github.com/mpj1693/Crystals-Collector-Game" target="blank">
+                    <button type="button" class="btn btn-lg btn-dark mt-4">View Code</button>
+                    </a>
+                    <br />
+                    <a href="https://mpj1693.github.io/Crystals-Collector-Game/" target="blank">
+                      <button type="button" class="btn btn-lg btn-outline-secondary mt-4">View Project</button>
+                    </a>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
 
-      <div class="col-lg-4 col-sm-12 mt-3">
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img src="img/portfolio/logo (5).png" alt="Avatar" style="width:350px;height:275px;">
-            </div>
-            <div class="flip-card-back">
-              <h1>John Doe</h1> 
-              <p>Architect & Engineer</p> 
-              <p>We love that guy</p>
+          <div class="col-lg-4 col-sm-12 mt-3">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="img/portfolio/logo (5).png" alt="Avatar" style="width:350px;height:275px;">
+                </div>
+                <div class="flip-card-back">
+                  <h2>Train Predictions</h2>
+                  <a href="https://github.com/mpj1693/TrainPredictions" target="blank">
+                    <button type="button" class="btn btn-lg btn-dark mt-4">View Code</button>
+                    </a>
+                    <br />
+                    <a href="https://mpj1693.github.io/TrainPredictions/" target="blank">
+                      <button type="button" class="btn btn-lg btn-outline-secondary mt-4">View Project</button>
+                    </a>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
 
-      </div>
+        </div>
 
         <!-- <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
@@ -402,15 +432,8 @@
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
       <div class="w-100">
         <h2 class="mb-5">Interests</h2>
-        <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier
-          and
-          novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and
-          kayaking.</p>
-        <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows,
-          I
-          am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements
-          in
-          the front-end web development world.</p>
+        <p>Apart from being a web developer, I enjoy most of my time being outdoors. Travelling and spending time with friends and family is the first thing that comes to mind.</p>
+        <p class="mb-0">When forced indoors, I would either be watching cricket or fantasy and sci-fi genre movies and television shows. Also love playing video games.</p>
       </div>
     </section>
 
